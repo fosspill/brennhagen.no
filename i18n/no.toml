@@ -1,0 +1,8 @@
+[hello]
+other = "Hallo"
+
+[i-am]
+other = "Vi er Brennhagen familien"
+
+[generator]
+other = "Lagd med <a href='https://gohugo.io'>Hugo</a> og tema <a href='https://github.com/EmielH/hallo-hugo/'>Hallo</a>."

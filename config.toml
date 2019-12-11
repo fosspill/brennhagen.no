@@ -6,7 +6,7 @@ theme = "hallo"
 disableKinds = ["page", "section", "taxonomy", "taxonomyTerm"]
 
 [Author]
-    name = "Ole Erik Brennhagen"
+    name = ""
 
 [params]
 
