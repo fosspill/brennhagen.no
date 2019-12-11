@@ -4,5 +4,8 @@ other = "Hello"
 [i-am]
 other = "We are the Brennhagen family"
 
+[introduction]
+other = "And you've reached the Brennhagen.no domain. Congratulations."
+
 [generator]
 other = "Made with <a href='https://gohugo.io'>Hugo</a> using the <a href='https://github.com/EmielH/hallo-hugo/'>Hallo</a> theme."

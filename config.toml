@@ -8,6 +8,22 @@ disableKinds = ["page", "section", "taxonomy", "taxonomyTerm"]
 [Author]
     name = ""
 
+[languages]
+  [languages.en]
+    languageName = "English"
+    weight = 10
+  [languages.no]
+    languageName = "Norsk"
+    weight = 20
+  [languages.nl]
+    languageName = "Nederlands"
+    weight = 20
+  [languages.fr]
+    languageName = "Français"
+    weight = 20
+  [languages.de]
+    languageName = "Deutsch"
+    weight = 20
 [params]
 
     [[params.links]]

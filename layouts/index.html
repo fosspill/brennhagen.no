@@ -1,9 +1,11 @@
 {{ define "main" }}
 
 <main>
+        {{- partial "i18nlist.html" . -}}
     <div class="block introduction">
         <div class="column left">
-            <img src="images/portrait.jpg" class="portrait" alt="Portrait" />
+                
+            <img src="{{ "images/portrait.jpg" | absURL }}" class="portrait" alt="Portrait" />
         </div>
         <div class="column right">
             {{- with .Param "greeting" -}}
@@ -12,7 +14,7 @@
                 <h1>{{ i18n "hello" }}.</h1>
             {{- end -}}
             <h2>{{ i18n "i-am" }}{{ .Site.Author.name | default "" }}.</h2>
-            <p>{{- partial "introduction.html" . -}}</p>
+            <p>{{ i18n "introduction"}}</p>
 
             <div class="links">
                 {{- range .Site.Params.links -}}
