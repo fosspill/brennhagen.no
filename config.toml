@@ -1,0 +1,22 @@
+baseURL = "/"
+languageCode = "en"
+defaultContentLanguage = "en"
+title = "Brennhagen.no"
+theme = "hallo"
+disableKinds = ["page", "section", "taxonomy", "taxonomyTerm"]
+
+[Author]
+    name = "Ole Erik Brennhagen"
+
+[params]
+
+    [[params.links]]
+        iconset = "fas"
+        icon = "envelope"
+        title = "E-mail"
+        url = "mailto:ole@brennhagen.no"
+
+    [[params.links]]
+        icon = "android"
+        title = "pwd.cat"
+        url = "https://pwd.cat"
